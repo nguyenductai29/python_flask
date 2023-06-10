@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='plugins/bootstrap/bootstrap.min.css') }}">
+        <link rel="stylesheet"
+            href="{{ url_for('static', filename='plugins/datetimepicker/jquery.datetimepicker.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='plugins/fontawesome/css/all.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='plugins/rSlider/rSlider.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='plugins/jquery/jquery-ui.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='plugins/jquery/jquery.multiselect.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+        <title>{% block title %} {% endblock %}</title>
+    </head>
+
+    <body>
+        <header id="header" class="navigation">
+        </header>
+        <div class="content">
+            <div class="container-fluid">
+                <div class="justify-content-between align-items-center">
+                    {% block content %}
+                        <!-- Default content here -->
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+        <div id="divModalArea" class="loading-overlay"></div>
+        <div class="d-flex justify-content-center divLoading">
+            <div id="divSpinner" class="spinner-border text-light hidden" style="width: 5rem; height: 5rem;"
+                role="status"><span class="sr-only">Loading...</span></div>
+        </div>
+        <script src="{{ url_for('static', filename='plugins/jquery/jquery-3.6.0.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='plugins/jquery/jquery-ui.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='plugins/jquery/jquery.multiselect.js') }}"></script>
+        <script src="{{ url_for('static', filename='plugins/bootstrap/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='plugins/rSlider/rSlider.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='plugins/bootstrap/option.js') }}"></script>
+        <script
+            src="{{ url_for('static', filename='plugins/datetimepicker/jquery.datetimepicker.full.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/common.js') }}"></script>
+    </body>
+
+</html>

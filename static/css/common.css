@@ -1,0 +1,31 @@
+.loading-overlay {
+    width           : 100%;
+    height          : 100%;
+    position        : fixed;
+    top             : 0;
+    left            : 0;
+    background      : rgba(0, 0, 0, 0.3);
+    opacity         : 0;
+    pointer-events  : none;
+    transition      : 0.25s ease-out;
+    display         : flex;
+    justify-content : center;
+    align-items     : center;
+}
+
+.loading-overlay.show {
+    opacity        : 1;
+    pointer-events : all;
+    z-index        : 9990;
+}
+
+.divLoading {
+    visibility : hidden;
+    z-index    : 9999;
+    margin     : auto;
+    position   : absolute;
+    top        : 45%;
+    left       : 45%;
+    right      : 45%;
+    bottom     : 45%;
+}
