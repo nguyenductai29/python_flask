@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/common.css') }}">
         <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
         <title>{% block title %} {% endblock %}</title>
+        {% block link %} {% endblock %}
     </head>
 
     <body>
@@ -42,6 +43,7 @@
         <script
             src="{{ url_for('static', filename='plugins/datetimepicker/jquery.datetimepicker.full.min.js') }}"></script>
         <script src="{{ url_for('static', filename='js/common.js') }}"></script>
+        {% block script %} {% endblock %}
     </body>
 
 </html>
