@@ -2,8 +2,11 @@ import logging as LOG
 from logging.handlers import RotatingFileHandler
 from flask import *
 from flask_sqlalchemy import SQLAlchemy
+from dotenv import load_dotenv
 
 from controllers import order, order_manager
+
+load_dotenv()
 
 app = Flask(__name__)
 app.config.from_pyfile('settings.py')    # Tải cấu hình từ tệp settings.py
