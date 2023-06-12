@@ -1,13 +1,13 @@
 @charset "UTF-8";
 
-input[type=button], input[type=submit] {
+input[type=button],input[type=submit] {
     -webkit-appearance: none
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman',Times,serif;
     font-size: .875rem;
     background: #f0f0f0
 }
@@ -17,7 +17,7 @@ mg {
     max-width: 100%
 }
 
-a:active, a:link, a:visited {
+a:active,a:link,a:visited {
     color: #212529
 }
 
@@ -63,7 +63,7 @@ h1+p .text-red {
     display: block
 }
 
-a, a:hover {
+a,a:hover {
     text-decoration: none;
     outline: 0
 }
@@ -82,14 +82,14 @@ ul li {
 }
 
 .navbar {
-    background-color: #ffffff !important;
-    padding: 0 !important;
-    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.2);
+    background-color: #fff!important;
+    padding: 0!important;
+    box-shadow: 0 5px 6px 0 rgba(0,0,0,.2)
 }
 
 .navbar-brand img {
     height: 50px;
-    width: 100px;
+    width: 100px
 }
 
 .scroll-area {
@@ -376,7 +376,7 @@ ul li {
     max-height: calc(100vh - (var(--header-height) + var(--footer-height) + 10px))
 }
 
-.scroll-area-a10, .scroll-area-a100, .scroll-area-a110, .scroll-area-a120, .scroll-area-a130, .scroll-area-a140, .scroll-area-a150, .scroll-area-a160, .scroll-area-a170, .scroll-area-a180, .scroll-area-a190, .scroll-area-a20, .scroll-area-a200, .scroll-area-a210, .scroll-area-a220, .scroll-area-a230, .scroll-area-a240, .scroll-area-a250, .scroll-area-a260, .scroll-area-a270, .scroll-area-a280, .scroll-area-a290, .scroll-area-a30, .scroll-area-a300, .scroll-area-a310, .scroll-area-a320, .scroll-area-a330, .scroll-area-a340, .scroll-area-a350, .scroll-area-a360, .scroll-area-a370, .scroll-area-a380, .scroll-area-a390, .scroll-area-a40, .scroll-area-a400, .scroll-area-a410, .scroll-area-a420, .scroll-area-a430, .scroll-area-a440, .scroll-area-a450, .scroll-area-a460, .scroll-area-a470, .scroll-area-a480, .scroll-area-a490, .scroll-area-a50, .scroll-area-a500, .scroll-area-a510, .scroll-area-a520, .scroll-area-a530, .scroll-area-a540, .scroll-area-a550, .scroll-area-a560, .scroll-area-a570, .scroll-area-a580, .scroll-area-a590, .scroll-area-a60, .scroll-area-a600, .scroll-area-a610, .scroll-area-a620, .scroll-area-a630, .scroll-area-a640, .scroll-area-a650, .scroll-area-a660, .scroll-area-a670, .scroll-area-a680, .scroll-area-a690, .scroll-area-a70, .scroll-area-a700, .scroll-area-a80, .scroll-area-a90 {
+.scroll-area-a10,.scroll-area-a100,.scroll-area-a110,.scroll-area-a120,.scroll-area-a130,.scroll-area-a140,.scroll-area-a150,.scroll-area-a160,.scroll-area-a170,.scroll-area-a180,.scroll-area-a190,.scroll-area-a20,.scroll-area-a200,.scroll-area-a210,.scroll-area-a220,.scroll-area-a230,.scroll-area-a240,.scroll-area-a250,.scroll-area-a260,.scroll-area-a270,.scroll-area-a280,.scroll-area-a290,.scroll-area-a30,.scroll-area-a300,.scroll-area-a310,.scroll-area-a320,.scroll-area-a330,.scroll-area-a340,.scroll-area-a350,.scroll-area-a360,.scroll-area-a370,.scroll-area-a380,.scroll-area-a390,.scroll-area-a40,.scroll-area-a400,.scroll-area-a410,.scroll-area-a420,.scroll-area-a430,.scroll-area-a440,.scroll-area-a450,.scroll-area-a460,.scroll-area-a470,.scroll-area-a480,.scroll-area-a490,.scroll-area-a50,.scroll-area-a500,.scroll-area-a510,.scroll-area-a520,.scroll-area-a530,.scroll-area-a540,.scroll-area-a550,.scroll-area-a560,.scroll-area-a570,.scroll-area-a580,.scroll-area-a590,.scroll-area-a60,.scroll-area-a600,.scroll-area-a610,.scroll-area-a620,.scroll-area-a630,.scroll-area-a640,.scroll-area-a650,.scroll-area-a660,.scroll-area-a670,.scroll-area-a680,.scroll-area-a690,.scroll-area-a70,.scroll-area-a700,.scroll-area-a80,.scroll-area-a90 {
     min-height: 100px
 }
 
@@ -405,12 +405,12 @@ ul li {
     top: 36px
 }
 
-.table-01, .table-02, .table-03 {
+.table-01,.table-02,.table-03 {
     width: 100%;
     margin: 0
 }
 
-.table-01>thead>tr>th, .table-02>thead>tr>th, .table-03 thead th {
+.table-01>thead>tr>th,.table-02>thead>tr>th,.table-03 thead th {
     background: #e0e0e0;
     color: #212529;
     font-weight: 700;
@@ -420,7 +420,7 @@ ul li {
 }
 
 .table-01>tbody>tr>th {
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0,0,0,.1);
     color: #212529;
     font-weight: 700;
     text-align: center;
@@ -428,21 +428,21 @@ ul li {
     white-space: nowrap
 }
 
-.table-01>tbody>tr>td, .table-02>tbody>tr>td, .table-03 tbody td {
+.table-01>tbody>tr>td,.table-02>tbody>tr>td,.table-03 tbody td {
     color: #212529;
     padding: 4px 10px;
     vertical-align: middle;
     white-space: nowrap
 }
 
-.table-01 tbody td a, .table-03 tbody td a {
+.table-01 tbody td a,.table-03 tbody td a {
     text-decoration: underline
 }
 
 .table-03 thead th>span {
     width: 100%;
     display: inline-block;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(0,0,0,.1);
     border-radius: 3px;
     padding: .2rem 10px
 }
@@ -454,7 +454,7 @@ ul li {
 }
 
 .table-03 tbody td span {
-    background: rgba(60, 60, 60, .1);
+    background: rgba(60,60,60,.1);
     border-radius: 2px;
     display: inline-block;
     padding: .1rem 4px;
@@ -462,159 +462,159 @@ ul li {
 }
 
 .w20 {
-    width: 20px !important
+    width: 20px!important
 }
 
 .w30 {
-    width: 30px !important
+    width: 30px!important
 }
 
 .w40 {
-    width: 40px !important
+    width: 40px!important
 }
 
 .w50 {
-    width: 50px !important
+    width: 50px!important
 }
 
 .w60 {
-    width: 60px !important
+    width: 60px!important
 }
 
 .w70 {
-    width: 70px !important
+    width: 70px!important
 }
 
 .w80 {
-    width: 80px !important
+    width: 80px!important
 }
 
 .w90 {
-    width: 90px !important
+    width: 90px!important
 }
 
 .w100 {
-    width: 100px !important
+    width: 100px!important
 }
 
 .w110 {
-    width: 110px !important
+    width: 110px!important
 }
 
 .w120 {
-    width: 120px !important
+    width: 120px!important
 }
 
 .w130 {
-    width: 130px !important
+    width: 130px!important
 }
 
 .w140 {
-    width: 140px !important
+    width: 140px!important
 }
 
 .w150 {
-    width: 150px !important
+    width: 150px!important
 }
 
 .w200 {
-    width: 200px !important
+    width: 200px!important
 }
 
 .w210 {
-    width: 210px !important
+    width: 210px!important
 }
 
 .w220 {
-    width: 220px !important
+    width: 220px!important
 }
 
 .w230 {
-    width: 230px !important
+    width: 230px!important
 }
 
 .w240 {
-    width: 240px !important
+    width: 240px!important
 }
 
 .w250 {
-    width: 250px !important
+    width: 250px!important
 }
 
 .w300 {
-    width: 300px !important
+    width: 300px!important
 }
 
 .w4em {
-    width: 4em !important
+    width: 4em!important
 }
 
 .w5em {
-    width: 5em !important
+    width: 5em!important
 }
 
 .w6em {
-    width: 6em !important
+    width: 6em!important
 }
 
 .w7em {
-    width: 7em !important
+    width: 7em!important
 }
 
 .w8em {
-    width: 8em !important
+    width: 8em!important
 }
 
 .w9em {
-    width: 9em !important
+    width: 9em!important
 }
 
 .w10em {
-    width: 10em !important
+    width: 10em!important
 }
 
 .w11em {
-    width: 11em !important
+    width: 11em!important
 }
 
 .w12em {
-    width: 12em !important
+    width: 12em!important
 }
 
 .w14em {
-    width: 14em !important
+    width: 14em!important
 }
 
 .w16em {
-    width: 16em !important
+    width: 16em!important
 }
 
 .w18em {
-    width: 18em !important
+    width: 18em!important
 }
 
 .w20em {
-    width: 20em !important
+    width: 20em!important
 }
 
 .w24em {
-    width: 24em !important
+    width: 24em!important
 }
 
 .w28em {
-    width: 28em !important
+    width: 28em!important
 }
 
 .w32em {
-    width: 32em !important
+    width: 32em!important
 }
 
 .w36em {
-    width: 36em !important
+    width: 36em!important
 }
 
 .w100ps {
-    width: calc(100% - 52px) !important
+    width: calc(100% - 52px)!important
 }
 
 .spacer-r {
@@ -709,7 +709,7 @@ ul li {
 }
 
 @keyframes flash {
-    0%, 100% {
+    0%,100% {
         opacity: 1
     }
 
@@ -721,7 +721,7 @@ ul li {
 @keyframes fadeinup {
     0% {
         opacity: 0;
-        transform: translate3d(0, 5%, 0)
+        transform: translate3d(0,5%,0)
     }
 
     100% {
